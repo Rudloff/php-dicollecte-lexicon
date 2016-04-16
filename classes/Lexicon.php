@@ -7,12 +7,13 @@ use Symfony\Component\Process\ProcessBuilder;
 
 class Lexicon
 {
-    private $file = __DIR__.'/../vendor/dicollecte/lexique/lexique-dicollecte-fr-v5.6.txt';
+    private $file;
     private $delimiter = "\t";
     private $procBuilder;
 
     public function __construct()
     {
+        $this->file = $file = __DIR__.'/../vendor/dicollecte/lexique/lexique-dicollecte-fr-v5.6.txt';
         $this->procBuilder = new ProcessBuilder();
         $this->procBuilder->setPrefix(array('fgrep', $this->file));
     }
