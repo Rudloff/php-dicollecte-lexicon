@@ -13,3 +13,7 @@
 126701	administrateur	administrateur	nom adj mas sg	administrat2r	ATMNSTRTR		admin		*	5420228719	927	551668	1	0	0.001666648975256	7
 126701	administratrice	administrateur	nom adj fem sg	administratriS	ATMNSTRTRS		admin		*	3152	206	18	3376	1	0	0.000010199262855	5
 126701	administratrices	administrateur	nom adj fem pl	administratriS	ATMNSTRTRSS		admin		*	864	7	1	872	1	0	0.000002634406756	4
+182246	étudiants	étudiant	nom adj mas pl	étudiâ	ATTNTS				*	1458647	24557	689	1483893	1	0	0.004483002000912	7
+182246	étudiant	étudiant	nom adj mas sg	étudiâ	ATTNT				*	682384	9027	1739	346575	1	1	0.001047040735731	7
+182246	étudiante	étudiant	nom adj fem sg	étudiât	ATTNT				*	76434	3251	50	79735	1	0	0.000240888099440	6
+182246	étudiantes	étudiant	nom adj fem pl	étudiât	ATTNTS				*	53925	1508	25	55458	1	0	0.000167544644369	6

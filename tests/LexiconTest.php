@@ -34,6 +34,9 @@ class LexiconTest extends \PHPUnit_Framework_TestCase
                 new Inflection(146987, 'fois', 'foi', array('nom', 'fem', 'pl')),
                 new Inflection(200308, 'fois', 'fois', array('nom', 'fem', 'inv'))
             )),
+            array('étudiante', array(
+                new Inflection(182246, 'étudiante', 'étudiant', array('nom', 'adj', 'fem', 'sg')))
+            ),
             array('foobar', array())
         );
     }
