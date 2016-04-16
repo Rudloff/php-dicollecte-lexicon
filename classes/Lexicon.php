@@ -20,7 +20,7 @@ class Lexicon
 
     private function getBy($search, $column)
     {
-        $search = strtolower($search);
+        $search = mb_strtolower($search);
         $this->procBuilder->setArguments(array('-e', "\t$search\t"));
         $process = $this->procBuilder->getProcess();
         $process->run();
