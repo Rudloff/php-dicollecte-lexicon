@@ -4,7 +4,8 @@
 	"license": "GPL-3.0",
 	"require": {
 		"dicollecte/lexique": "~5.6",
-		"league/csv": "~8.0.0"
+		"league/csv": "~8.0.0",
+		"symfony/process": "~3.0.0"
 	},
 	"require-dev": {
 		"symfony/var-dumper": "~3.0.0"
