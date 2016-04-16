@@ -8,7 +8,7 @@ class LexiconTest extends \PHPUnit_Framework_TestCase
 {
     protected function setUp()
     {
-        $this->lexicon = new Lexicon();
+        $this->lexicon = new Lexicon(__DIR__.'/lexicon.txt');
     }
 
     /**

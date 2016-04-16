@@ -11,9 +11,9 @@ class Lexicon
     private $delimiter = "\t";
     private $procBuilder;
 
-    public function __construct()
+    public function __construct($path)
     {
-        $this->file = $file = __DIR__.'/../vendor/dicollecte/lexique/lexique-dicollecte-fr-v5.6.txt';
+        $this->file = $path;
         $this->procBuilder = new ProcessBuilder();
         $this->procBuilder->setPrefix(array('fgrep', $this->file));
     }

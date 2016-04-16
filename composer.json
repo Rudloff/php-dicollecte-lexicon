@@ -3,30 +3,15 @@
 	"description": "Extract data from Dicollecte French lexicon",
 	"license": "GPL-3.0",
 	"require": {
-		"dicollecte/lexique": "~5.6",
 		"league/csv": "~8.0.0",
 		"symfony/process": "~3.0.0"
 	},
 	"require-dev": {
 		"symfony/var-dumper": "~3.0.0"
 	},
-	"repositories": [{
-		"type": "package",
-		"package": {
-			"name": "dicollecte/lexique",
-			"version": "5.6",
-			"dist": {
-				"url": "http://www.dicollecte.org/download/fr/lexique-dicollecte-fr-v5.6.zip",
-				"type": "zip"
-			}
-		}
-	}],
 	"autoload": {
 		"psr-4": {
 			"Dicollecte\\": "classes/"
 		}
-	},
-	"config": {
-		"secure-http": false
 	}
 }
