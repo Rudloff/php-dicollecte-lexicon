@@ -1,4 +1,5 @@
 <?php
+
 namespace Dicollecte;
 
 class Inflection
@@ -6,11 +7,11 @@ class Inflection
     private $id;
     public $inflection;
     public $lemma;
-    public $tags = array();
+    public $tags = [];
 
     public function __construct($id, $inflection, $lemma, $tags)
     {
-        $this->id = (int)$id;
+        $this->id = (int) $id;
         $this->inflection = $inflection;
         $this->lemma = $lemma;
         $this->tags = $tags;
