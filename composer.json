@@ -3,11 +3,11 @@
 	"description": "Extract data from Dicollecte French lexicon",
 	"license": "GPL-3.0",
 	"require": {
-		"league/csv": "~8.0.0",
-		"symfony/process": "~3.0.0"
+		"league/csv": "~8.1.1",
+		"symfony/process": "~3.1.5"
 	},
 	"require-dev": {
-		"symfony/var-dumper": "~3.0.0"
+		"symfony/var-dumper": "~3.1.5"
 	},
 	"autoload": {
 		"psr-4": {
