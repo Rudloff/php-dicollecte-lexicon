@@ -1,0 +1,19 @@
+134848	chanteur	chanteur	nom adj mas sg	kât2r	XNTR				*	103992	24062	1091	129145	1	0	0.000390161078601	6
+134848	chanteurs	chanteur	nom adj mas pl	kât2r	XNTRS				*	117696	4387	1090	123173	1	0	0.000372119017650	6
+134848	chanteuse	chanteur	nom adj fem sg	kât2z	XNTS				*	38578	15631	226	54435	1	0	0.000164454050204	6
+134848	chanteuses	chanteur	nom adj fem pl	kât2z	XNTSS				*	16263	905	115	17283	1	0	0.000052213821065	5
+214625	maire	maire	nom epi sg	mér	MR				*	1435430	33789	2593	1471812	1	00.004446503987125	7
+214625	maires	maire	nom epi pl	mér	MRS				*	321998	4596	392	326986	1	00.000987860238083	6
+178470	tête	tête	nom fem sg	tét	TT				*	7569121	67883	75252	7712256	1	00.023299563431828	8
+178470	têtes	tête	nom fem pl	tét	TTS				*	862690	5344	7487	875521	1	00.002645044079890	7
+146987	fois	foi	nom fem pl	foi	F/FS				*	22104416	188355	118266	11205519	1	1	0.033853090551851	8
+146987	foi	foi	nom fem sg	foi	F				*	5570432	12435	29697	5612564	1	00.016956165735836	8
+200308	fois	fois	nom fem inv	fois	F/FS				*	22104416	188355	118266	11205519	1	1	0.033853090551851	8
+126701	administrateurs	administrateur	nom adj mas pl	administrat2r	ATMNSTRTRS		admin		*	6893403664	762	693766	1	0	0.002095942474400	7
+126701	administrateur	administrateur	nom adj mas sg	administrat2r	ATMNSTRTR		admin		*	5420228719	927	551668	1	0	0.001666648975256	7
+126701	administratrice	administrateur	nom adj fem sg	administratriS	ATMNSTRTRS		admin		*	3152	206	18	3376	1	0	0.000010199262855	5
+126701	administratrices	administrateur	nom adj fem pl	administratriS	ATMNSTRTRSS		admin		*	864	7	1	872	1	0	0.000002634406756	4
+182246	étudiants	étudiant	nom adj mas pl	étudiâ	ATTNTS				*	1458647	24557	689	1483893	1	0	0.004483002000912	7
+182246	étudiant	étudiant	nom adj mas sg	étudiâ	ATTNT				*	682384	9027	1739	346575	1	1	0.001047040735731	7
+182246	étudiante	étudiant	nom adj fem sg	étudiât	ATTNT				*	76434	3251	50	79735	1	0	0.000240888099440	6
+182246	étudiantes	étudiant	nom adj fem pl	étudiât	ATTNTS				*	53925	1508	25	55458	1	0	0.000167544644369	6
