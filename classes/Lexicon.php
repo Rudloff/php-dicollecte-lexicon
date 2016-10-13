@@ -11,6 +11,9 @@ class Lexicon
     private $delimiter = "\t";
     private $procBuilder;
 
+    /**
+     * @param string $path
+     */
     public function __construct($path)
     {
         $this->file = $path;
@@ -18,6 +21,9 @@ class Lexicon
         $this->procBuilder->setPrefix(['fgrep', $this->file]);
     }
 
+    /**
+     * @param string $column
+     */
     private function getBy($search, $column)
     {
         $search = mb_strtolower($search, mb_detect_encoding($search));
