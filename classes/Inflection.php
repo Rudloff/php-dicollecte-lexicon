@@ -1,43 +1,48 @@
 <?php
 /**
- * Inflection class
+ * Inflection class.
  */
 namespace Dicollecte;
 
 /**
- * Class used to manage inflections
+ * Class used to manage inflections.
  */
 class Inflection
 {
     /**
-     * Inflection ID in the lexicon
+     * Inflection ID in the lexicon.
+     *
      * @var int
      */
     private $id;
 
     /**
-     * Inflected form
+     * Inflected form.
+     *
      * @var string
      */
     public $inflection;
 
     /**
-     * Lemma
+     * Lemma.
+     *
      * @var string
      */
     public $lemma;
 
     /**
-     * Tags
+     * Tags.
+     *
      * @var string[]
      */
     public $tags = [];
 
     /**
-     * Inflection constructor
-     * @param int $id         Inflection ID in the lexicon
-     * @param string $inflection Inflected form
-     * @param string $lemma      Lemma
+     * Inflection constructor.
+     *
+     * @param int      $id         Inflection ID in the lexicon
+     * @param string   $inflection Inflected form
+     * @param string   $lemma      Lemma
      * @param string[] $tags       Tags
      */
     public function __construct($id, $inflection, $lemma, $tags)
@@ -49,9 +54,11 @@ class Inflection
     }
 
     /**
-     * Check if the inflection has a specific tag
-     * @param  string  $tag Tag
-     * @return boolean
+     * Check if the inflection has a specific tag.
+     *
+     * @param string $tag Tag
+     *
+     * @return bool
      */
     public function hasTag($tag)
     {
