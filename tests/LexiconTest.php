@@ -1,6 +1,6 @@
 <?php
 /**
- * LexiconTest
+ * LexiconTest.
  */
 namespace Dicollecte\Test;
 
@@ -8,12 +8,12 @@ use Dicollecte\Inflection;
 use Dicollecte\Lexicon;
 
 /**
- * Class used to test the Lexicon class
+ * Class used to test the Lexicon class.
  */
 class LexiconTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Setup variables used by tests
+     * Setup variables used by tests.
      */
     protected function setUp()
     {
@@ -21,9 +21,11 @@ class LexiconTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test the getByInflection function
-     * @param  string $search String to search
-     * @param  Inflection $result Expected result
+     * Test the getByInflection function.
+     *
+     * @param string     $search String to search
+     * @param Inflection $result Expected result
+     *
      * @return void
      * @dataProvider inflectionProvider
      */
@@ -33,7 +35,8 @@ class LexiconTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Provide inflection to use in tests
+     * Provide inflection to use in tests.
+     *
      * @return array[]
      */
     public function inflectionProvider()
@@ -59,7 +62,8 @@ class LexiconTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test the getByLemma() function
+     * Test the getByLemma() function.
+     *
      * @return void
      */
     public function testGetByLemma()
@@ -76,7 +80,8 @@ class LexiconTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test the hasTag function
+     * Test the hasTag function.
+     *
      * @return void
      */
     public function testHasTag()

@@ -1,18 +1,19 @@
 <?php
 /**
- * InflectionTest class
+ * InflectionTest class.
  */
 namespace Dicollecte\Test;
 
 use Dicollecte\Inflection;
 
 /**
- * Class used to test the Inflection class
+ * Class used to test the Inflection class.
  */
 class InflectionTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Test the hasTag() function
+     * Test the hasTag() function.
+     *
      * @return void
      */
     public function testHasTag()
