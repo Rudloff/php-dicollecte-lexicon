@@ -13,7 +13,8 @@ use Dicollecte\Lexicon;
 class LexiconTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Lexicon used in tests
+     * Lexicon used in tests.
+     *
      * @var Lexicon
      */
     private $lexicon;
