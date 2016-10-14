@@ -1,18 +1,30 @@
 <?php
-
+/**
+ * LexiconTest
+ */
 namespace Dicollecte\Test;
 
 use Dicollecte\Inflection;
 use Dicollecte\Lexicon;
 
+/**
+ * Class used to test the Lexicon class
+ */
 class LexiconTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * Setup variables used by tests
+     */
     protected function setUp()
     {
         $this->lexicon = new Lexicon(__DIR__.'/lexicon.txt');
     }
 
     /**
+     * Test the getByInflection function
+     * @param  string $search String to search
+     * @param  Inflection $result Expected result
+     * @return void
      * @dataProvider inflectionProvider
      */
     public function testGetByInflection($search, $result)
@@ -20,6 +32,10 @@ class LexiconTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($result, $this->lexicon->getByInflection($search));
     }
 
+    /**
+     * Provide inflection to use in tests
+     * @return array[]
+     */
     public function inflectionProvider()
     {
         return [
@@ -42,6 +58,10 @@ class LexiconTest extends \PHPUnit_Framework_TestCase
         ];
     }
 
+    /**
+     * Test the getByLemma() function
+     * @return void
+     */
     public function testGetByLemma()
     {
         $this->assertEquals(
@@ -55,6 +75,10 @@ class LexiconTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * Test the hasTag function
+     * @return void
+     */
     public function testHasTag()
     {
         foreach ($this->lexicon->getByInflection('administratrice') as $inflection) {

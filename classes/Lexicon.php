@@ -1,18 +1,39 @@
 <?php
-
+/**
+ * Lexicon class
+ */
 namespace Dicollecte;
 
 use League\Csv;
 use Symfony\Component\Process\ProcessBuilder;
 
+/**
+ * Class used to parse the lexicon
+ */
 class Lexicon
 {
+    /**
+     * Path to the lexicon file.
+     * This must be CSV file in the Dicollect format
+     * @var string
+     */
     private $file;
+
+    /**
+     * Delimiter used in CSV file
+     * @var string
+     */
     private $delimiter = "\t";
+
+    /**
+     * ProcessBuilder instance used to run fgrep
+     * @var ProcessBuilder
+     */
     private $procBuilder;
 
     /**
-     * @param string $path
+     * Lexicon constructor
+     * @param string $path Path to the lexicon file
      */
     public function __construct($path)
     {
@@ -22,7 +43,10 @@ class Lexicon
     }
 
     /**
-     * @param string $column
+     * Get inflections by searching in a specific column
+     * @param  string $search String to search
+     * @param  string $column Column name
+     * @return Inflection[] Search results
      */
     private function getBy($search, $column)
     {
@@ -42,11 +66,21 @@ class Lexicon
         return $results;
     }
 
+    /**
+     * Get inflections by inflected form
+     * @param  string $search String to search
+     * @return Inflection[] Search results
+     */
     public function getByInflection($search)
     {
         return $this->getBy($search, 'inflection');
     }
 
+    /**
+     * Get inflections by lemma
+     * @param  string $search String to search
+     * @return Inflection[] Search results
+     */
     public function getByLemma($search)
     {
         return $this->getBy($search, 'lemma');
