@@ -15,7 +15,7 @@ module.exports = function (grunt) {
                     src: ['tests/']
                 }
             },
-            jshint: {
+            jslint: {
                 Gruntfile: {
                     src: ['Gruntfile.js']
                 }
@@ -56,12 +56,12 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-phpcs');
     grunt.loadNpmTasks('grunt-phpunit');
-    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-jslint');
     grunt.loadNpmTasks('grunt-jsonlint');
     grunt.loadNpmTasks('grunt-fixpack');
     grunt.loadNpmTasks('grunt-phpdocumentor');
 
-    grunt.registerTask('lint', ['jshint', 'fixpack', 'jsonlint', 'phpcs']);
+    grunt.registerTask('lint', ['jslint', 'fixpack', 'jsonlint', 'phpcs']);
     grunt.registerTask('test', ['phpunit']);
     grunt.registerTask('doc', ['phpdocumentor']);
 };
