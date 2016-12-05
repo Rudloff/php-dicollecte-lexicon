@@ -2,6 +2,7 @@
 /**
  * LexiconTest.
  */
+
 namespace Dicollecte\Test;
 
 use Dicollecte\Inflection;

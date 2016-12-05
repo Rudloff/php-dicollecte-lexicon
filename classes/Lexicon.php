@@ -2,6 +2,7 @@
 /**
  * Lexicon class.
  */
+
 namespace Dicollecte;
 
 use League\Csv;

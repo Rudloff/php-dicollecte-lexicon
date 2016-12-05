@@ -2,6 +2,7 @@
 /**
  * InflectionTest class.
  */
+
 namespace Dicollecte\Test;
 
 use Dicollecte\Inflection;
