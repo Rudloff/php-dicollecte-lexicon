@@ -2,6 +2,7 @@
 /**
  * Inflection class.
  */
+
 namespace Dicollecte;
 
 /**
